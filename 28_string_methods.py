@@ -2,14 +2,15 @@ s = "hello world" # Strings are immutable
 
 # s[0] = "R" # You cannot do this
 
-a = len(s)
+# a = len(s)
 # print(a)
 # print(s.upper(), s)
 # print(s.lower())
 # print(s.capitalize())
 # print(s.title())
 
-# text = " \nhello world "
+text = " \nhello world "
+# print(text)
 # print(text.strip()) # Output: "hello world"
 # print(text.lstrip()) # Output: "hello world "
 # print(text.rstrip()) # Output: " hello world"
@@ -20,9 +21,11 @@ a = len(s)
 # print(text.replace("fun", "awesome")) 
 
 
-# text = "Apples,Bananas,Pineapples"
-# print(text.split(","))
-# print(",".join(['Apples', 'Bananas', 'Pineapples']))
+text = "Apples,Bananas,Pineapples"
+print(text.split(","))
+print(",".join(['Apples', 'Bananas', 'Pineapples']))
+
+
 
 text = "Python123"
 print(text.isalpha()) # Output: False

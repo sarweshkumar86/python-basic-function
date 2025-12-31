@@ -1,5 +1,5 @@
-c = True 
-d = False
+# c = True 
+# d = False
 
 # Logical Operators
 print(True and True)
